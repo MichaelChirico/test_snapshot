@@ -4,4 +4,9 @@ Title: Test package
 Description: A test package.
 Imports: data.table
 Suggests: testthat (>= 3.1.0)
+License: GPL-2
+Author: Michael Chirico
+Maintainer: Michael Chirico <michaelchirico4@gmail.com>
 Config/testthat/edition: 3
+RoxygenNote: 7.1.2
+Encoding: UTF-8

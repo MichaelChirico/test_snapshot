@@ -1,3 +1,6 @@
+#' test
+#' 
+#' write test output
 foo <- function() {
   farsi = data.table::fread(
     system.file('language_metadata.csv', package="testSnapshot"),
