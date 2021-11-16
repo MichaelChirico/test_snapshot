@@ -4,7 +4,4 @@
       foo()
     Message <simpleMessage>
       فارسی
-    Output
-      早上好
-      
 
