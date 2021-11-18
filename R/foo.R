@@ -17,7 +17,7 @@ should_fail <- function() {
   line <- paste(gsub('^msgstr "|"$', "", po_lines[21L]), collapse = "")
   tmp <- tempfile()
   on.exit(unlink(tmp))
-  conn <- file(tmp, "w+", encoding="native.enc")
+  conn <- file(tmp, open="w+", encoding="native.enc")
   writeLines(gsub("", "", line), conn, useBytes = TRUE)
   close(conn)
   new_lines <- readLines(tmp, encoding = "UTF-8")
