@@ -1,1 +1,3 @@
-test_that("foo works", { expect_snapshot(foo()) })
+test_that("should_work works", { expect_snapshot(should_work()) })
+
+test_that("should_fail works", { expect_snapshot(should_fail()) })

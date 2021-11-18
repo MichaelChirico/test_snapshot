@@ -1,7 +1,14 @@
-# foo works
+# should_work works
 
     Code
-      foo()
+      should_work()
     Message <simpleMessage>
       فارسی
+
+# should_fail works
+
+    Code
+      should_fail()
+    Output
+      当然不会！
 

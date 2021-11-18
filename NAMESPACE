@@ -1,4 +1,4 @@
-importFrom(data.table, fread)
+importFrom(data.table, fread, data.table)
 
-export(foo)
+export(should_work, should_fail)
 
